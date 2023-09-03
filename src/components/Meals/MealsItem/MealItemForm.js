@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 
 import Input from "../../UI/Input";
 import classes from "./MealItemForm.module.css";
@@ -45,4 +45,4 @@ const MealItemForm = (props) => {
   );
 };
 
-export default MealItemForm;
+export default React.memo(MealItemForm);

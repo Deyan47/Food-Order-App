@@ -28,4 +28,4 @@ const MealItem = (props) => {
     </li>
   );
 };
-export default MealItem;
+export default React.memo(MealItem);

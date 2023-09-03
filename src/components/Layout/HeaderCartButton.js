@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import CartIcon from "../Cart/CartIcon";
 import CartContext from "../../store/cart-context";
 import classes from "./HeaderCartButton.module.css";
@@ -43,4 +43,4 @@ const HeaderCartButton = (props) => {
   );
 };
 
-export default HeaderCartButton;
+export default React.memo(HeaderCartButton);

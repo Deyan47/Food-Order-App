@@ -1,3 +1,4 @@
+import React from "react";
 import classes from "./CartItem.module.css";
 
 const CartItem = (props) => {
@@ -20,4 +21,4 @@ const CartItem = (props) => {
   );
 };
 
-export default CartItem;
+export default React.memo(CartItem);

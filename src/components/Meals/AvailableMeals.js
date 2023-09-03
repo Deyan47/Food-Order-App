@@ -67,4 +67,4 @@ const AvailableMeals = () => {
   );
 };
 
-export default AvailableMeals;
+export default React.memo(AvailableMeals);
